@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Recipe page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+    @media (max-width:375px){
+     body{
+      background-color: hsl(30, 54%, 90%);
+      font-size: 16px;
+     }
+    }
+    @media (min-width:1440px){
+      body{
+      background-color: hsl(30, 54%, 90%);
+      font-size:16px;  
+     }
+    }
+
+@font-face { 
+  font-family:'YoungSerif-Regular';
+  src: url(/fonts/YoungSerif-Regular.ttf);
+}
+@font-face {
+  font-family: Outfit-VariableFont_wght;
+  src: url(/fonts/Outfit-VariableFont_wght.ttf);
+}
+
+    .first 
+    {
+      background-color: hsl(0, 0%, 100%);
+      border-radius: 15px;
+      margin-left: 100px;
+      padding:2rem;
+      margin:auto;
+      max-width: 700px;
+      box-sizing: border-box;
+                 
+    }
+    .first h1{font-family:YoungSerif-Regular; font-weight: 400; color:black;}
+    .zero h2{font-family:YoungSerif-Regular; font-weight: 400; color:hsl(14, 45%, 36%);}
+    .one1 h2{font-family:YoungSerif-Regular; font-weight: 400;}
+    .two h2{font-family:YoungSerif-Regular; font-weight: 400; color:hsl(14, 45%, 36%);}
+    .three h2{font-family:YoungSerif-Regular; font-weight: 400;}
+    
+    body 
+    {
+      margin:0 auto; padding:2rem 1rem; height:100%; max-width:100%; padding-top: 100px; padding-bottom: 100px;
+      font-family: Outfit-VariableFont_wght; color: hsl(30, 10%, 34%);
+    }
+    body {display:flex; justify-content: center; align-items: center;}
+   
+  .zero li::marker{color:hsl(14, 45%, 36%); font-size: 0.8em;}  
+  .zero li{padding:5px; padding-left: 15px;}
+  .zero ul{padding-left:20px;}
+  
+
+  .one1 li::marker{color:hsl(332, 51%, 32%); font-size: 0.8em;} 
+  .one1 li{padding:5px; padding-left: 15px;} 
+  .one1 ul{padding-left: 20px;}
+
+  
+  .two li{padding-left: 15px;}
+  .two ol{padding-left: 20px;}  
+  .two li::marker{color:hsl(14, 45%, 36%); font-weight: bold;}
+
+  .three h2{color:hsl(14, 45%, 36%);}
+  
+   
+    
+  </style>
+</head>
+<body style="background-color:hsl(30, 54%, 90%);"> 
+<div class="first">
+  <img src="/images/image-omelette.jpeg" alt="omelete" 
+  style="width:100%; height:auto; border-radius: 10px;" >
+
+  <h1>Simple Omelette Recipe</h1>
+  <p style="line-height:25px;">An easy and quick dish, perfect for any meal. This classic omelette combines beaten eggs<br> cooked 
+  to perfection, optionally filled with your choice of cheese, vegetables, or meats.
+  </p>
+ 
+  <div class="one1" style="background-color: rgb(248, 244, 252); margin-right: 35px; border-radius: 10px; padding:5px; padding-left: 30px;">
+  <h3 style="color:hsl(332, 51%, 32%);">Preparation time</h3> 
+   <ul>
+    <li><b>Total:</b> Approximately 10 minutes</li>
+    <li><b>Preparation:</b> 5 minutes</li>
+    <li><b>Cooking:</b> 5 minutes</li>
+   </ul>
+ </div>
+
+
+
+<div class="zero">
+  <h2>Ingredients</h2>
+ <ul style="list-style-type:square;">
+  <li>2-3 large eggs</li>
+  <li>Salt, to taste</li>
+  <li>Pepper, to taste</li>
+  <li>1 tablespoon of butter or oil</li>
+  <li>Optional fillings: cheese, diced vegetables, cooked meats, herbs</li>
+ </ul>
+<div style="width: 630px; height:1px; background-color:hsl(30, 18%, 87%); position:relative; "></div>
+</div>
+
+
+<div class="two">
+  <h2>Instructions</h2>
+ <ol>
+  <li><p style="line-height: 25px;"><b>Beat the eggs:</b> In a bowl, beat the eggs with a pinch of salt and pepper until they are<br> well mixed.
+  You can add a tablespoon of water or milk for a fluffier texture.</p></li>
+
+  <li><b>Heat the pan:</b> Place a non-stick frying pan over medium heat and add butter or oil.</li>
+
+  <li><p style="line-height: 25px;"><b>Cook the omelette:</b> Once the butter is melted and bubbling, pour in the eggs. Tilt the<br> pan to ensure 
+  the eggs evenly coat the surface.</p></li>
+
+  <li><p style="line-height: 25px;"><b>Add fillings (optional):</b> When the eggs begin to set at the edges but are still slightly<br> runny in the 
+  middle, sprinkle your chosen fillings over one1 half of the omelette.</p></li>
+
+  <li><p style="line-height: 25px;"><b>Fold and serve:</b> As the omelette continues to cook, carefully lift one1 edge and fold it<br> over the 
+  fillings. Let it cook for another minute, then slide it onto a plate.</p></li>
+
+  <li style="padding-bottom: 20px;"><b>Enjoy:</b> Serve hot, with additional salt and pepper if needed.</li>
+  
+  <div style="width: 630px; height:1px; background-color:hsl(30, 18%, 87%); position:relative; margin-left: -20px;"></div>
+ </ol>
+</div>
+
+<div class="three">
+  <h2>Nutrition</h2>
+
+  <p>The table below shows nutritional values per serving without the additional fillings.</p>
+
+  <p style="word-spacing: 245px; padding-left:27px;">Calories
+   <span style="color:hsl(14, 45%, 36%); font-weight: bold;">277kcal</span></p>
+    <div style="width: 630px; height:1px; background-color:hsl(30, 18%, 87%); position:relative; "></div>
+
+  <p style="word-spacing: 260px; padding-left:27px;">Carbs
+   <span style="color:hsl(14, 45%, 36%); font-weight: bold;">0g</span></p>
+    <div style="width: 630px; height:1px; background-color:hsl(30, 18%, 87%); position:relative; "></div>
+
+  <p style="word-spacing: 250px; padding-left:27px;">Protein
+   <span style="color:hsl(14, 45%, 36%); font-weight: bold;">20g</span></p>
+    <div style="width: 630px; height:1px; background-color:hsl(30, 18%, 87%); position:relative; "></div>
+
+  <p style="word-spacing: 277px; padding-left:27px;">Fat
+   <span style="color:hsl(14, 45%, 36%); font-weight: bold;">22g</span></p>
+</div>  
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Ethria</a>.
+  </div>
+</body>
+</html>
