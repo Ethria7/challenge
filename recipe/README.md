@@ -6,7 +6,7 @@ This is a simple and responsive recipe page created as a practice project from [
 You can view the live site here: [Live Demo](https://github.com/Ethria7/challenge)
 
 ## Revised Parts
-(2025.06/08)
+(2025-06-08)
 
 1. Change div class name for better reading.
    .one1 → .prep-time
