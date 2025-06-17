@@ -7,20 +7,21 @@ You can view the live site here: [Live Demo](https://github.com/Ethria7/challeng
 
 ## Revised Parts
 (2025.06/08)
-1.Change div class name for better reading.
- .one1 → .prep-time
- .zero → .ingredients
- .two → .instructions
- .three → .nutrition
 
-2.Preparation Time context adjustment. 
- -padding
+1. Change div class name for better reading.
+   .one1 → .prep-time
+   .zero → .ingredients
+   .two → .instructions
+   .three → .nutrition
 
-3.Optimize div class="nutrition"
- Put .nutrition p{} .nutrition span{} into <style>
+2. Preparation Time context adjustment. 
+   -padding
 
-4.Relocate Instructions horizon line from inside <div> to outside <div>.   
+3. Optimize div class="nutrition"
+   Put .nutrition p{} .nutrition span{} into <style>
 
-5.Re-adjust word-spacing in Nutrition part.
+4. Relocate Instructions horizon line from inside <div> to outside <div>.   
+
+5. Re-adjust word-spacing in Nutrition part.
 
 ## Coded by Ethria
