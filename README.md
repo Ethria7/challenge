@@ -20,7 +20,7 @@ You can view the live site here: [Live Demo](https://github.com/Ethria7/challeng
 3. Optimize div class="nutrition"
    Put .nutrition p{} .nutrition span{} into <style>
 
-4. Relocate Instructions horizon line from inside <div> to outside <div>.   
+4. Relocate Instructions horizon line.   
 
 5. Re-adjust word-spacing in Nutrition part.
 
