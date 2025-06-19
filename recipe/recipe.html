@@ -5,11 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">  
   <title>Frontend Mentor | Recipe page</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
     .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+    a.attribution { color: hsl(228, 45%, 44%); }
 
     @media (max-width:375px){
      body{
@@ -33,8 +31,7 @@
   src: url(./fonts/Outfit-VariableFont_wght.ttf);
 }
 
-    .first 
-    {
+    .first {    
       background-color: hsl(0, 0%, 100%);
       border-radius: 15px;
       margin-left: 100px;
@@ -43,20 +40,27 @@
       max-width: 700px;
       box-sizing: border-box;                 
     }
+
     .first h1{font-family:YoungSerif-Regular; font-weight: 400; color:black;}
     .ingredients h2{font-family:YoungSerif-Regular; font-weight: 400; color:hsl(14, 45%, 36%);}
     .prep-time h2{font-family:YoungSerif-Regular; font-weight: 400;}
     .instructions h2{font-family:YoungSerif-Regular; font-weight: 400; color:hsl(14, 45%, 36%);}
     .nutrition h2{font-family:YoungSerif-Regular; font-weight: 400;}
     
-    body 
-    {
-      margin:0 auto; padding:2rem 1rem; height:100%; max-width:100%; padding-top: 100px; padding-bottom: 100px;
+    body {    
+      margin:0 auto; 
+      padding:2rem 1rem; 
+      height:100%; 
+      max-width:100%; 
+      padding-top: 100px; 
+      padding-bottom: 100px;
       font-family: Outfit-VariableFont_wght; color: hsl(30, 10%, 34%);
+      display:flex; 
+      justify-content: center; 
+      align-items: center;
     }
 
-    body {display:flex; justify-content: center; align-items: center;}
-   
+    
   .ingredients li::marker{color:hsl(14, 45%, 36%); font-size: 0.8em;}  
   .ingredients li{padding:5px; padding-left: 15px;}
   .ingredients ul{padding-left:20px;}
@@ -74,15 +78,15 @@
 
   .nutrition h2{color:hsl(14, 45%, 36%);}
   .nutrition p{padding-left:27px;}
-  .nutrition span{color:hsl(14, 45%, 36%); font-weight: bold;}   
-   
+  .nutrition span{color:hsl(14, 45%, 36%); font-weight: bold;}  
   </style>
 </head>
 <body style="background-color:hsl(30, 54%, 90%);"> 
  <div class="first">
-  <img src="/images/image-omelette.jpeg" alt="omelete" 
+  <img src="/images/image-omelette.jpeg" 
+       alt="omelete" 
        style="width:100%; height:auto; border-radius: 10px;" >
-
+  
   <h1>Simple Omelette Recipe</h1>
   <p style="line-height:25px;">An easy and quick dish, perfect for any meal. This classic omelette combines beaten eggs<br> cooked 
   to perfection, optionally filled with your choice of cheese, vegetables, or meats.
@@ -90,7 +94,8 @@
  
 
 
-  <div class="prep-time" style="background-color: rgb(248, 244, 252); 
+  <div class="prep-time" 
+       style="background-color: rgb(248, 244, 252); 
               border-radius: 10px;  
               width:100%;">
   <h3 style="color:hsl(332, 51%, 32%); padding-left:20px; padding-top: 15px;">Preparation time</h3> 
@@ -118,7 +123,7 @@
 
 
 <div class="instructions">
-  <h2>Instructions</h2>
+ <h2>Instructions</h2>
  <ol>
   <li><p><b>Beat the eggs:</b> In a bowl, beat the eggs with a pinch of salt and pepper until they are<br> well mixed.
   You can add a tablespoon of water or milk for a fluffier texture.</p></li>
@@ -134,8 +139,7 @@
   <li><p><b>Fold and serve:</b> As the omelette continues to cook, carefully lift one edge and fold it<br> over the 
   fillings. Let it cook for another minute, then slide it onto a plate.</p></li>
 
-  <li style="padding-bottom: 20px;"><b>Enjoy:</b> Serve hot, with additional salt and pepper if needed.</li>
-   
+  <li style="padding-bottom: 20px;"><b>Enjoy:</b> Serve hot, with additional salt and pepper if needed.</li>   
  </ol>
 </div>
 <div style="width: 630px; height:1px; background-color:hsl(30, 18%, 87%); position:relative; margin-bottom: 25px;"></div>
@@ -145,7 +149,7 @@
 <div class="nutrition">
   <h2>Nutrition</h2>
 
-  <p2>The table below shows nutritional values per serving without the additional fillings.</p2>
+  <p style="padding-left:0;padding-bottom: 10px;">The table below shows nutritional values per serving without the additional fillings.</p>
 
   <p style="word-spacing: 15.9em;">Calories
     <span>277kcal</span></p>
@@ -169,5 +173,6 @@
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Ethria</a>.
   </div>
+ </div> 
 </body>
 </html>
